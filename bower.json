@@ -1,0 +1,26 @@
+{
+  "name": "ng-excel-export",
+  "main": "ng-excel-export.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/palpalani/ng-excel-export",
+  "authors": [
+    "palpalani <palani.p@gmail.com>"
+  ],
+  "description": "Angular service for exporting JSON object to excel",
+  "keywords": [
+    "excel",
+    "export",
+    "filesaver"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "js-xlsx": "~0..8.0"
+  }
+}
