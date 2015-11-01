@@ -55,12 +55,7 @@
                     type: 'application/octet-stream'
                 });
 
-                var config = {
-                    data: excelObj,
-                    filename: fileName
-                };
-
-                FileSaver.saveAs(config);
+                FileSaver.saveAs(excelObj, fileName);
             };
         }
     ]);
